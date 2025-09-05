@@ -1,0 +1,51 @@
+img{
+background-position: auto;
+
+
+}
+.header_outercontainer {
+  position: sticky;
+  top: 0;
+  width: 100%;              /* take full width */
+  display: flex;
+  justify-content: center;  /* centers the inner container */
+  align-items: center;
+  height: 10vh;
+  background-color: black;   /* pick your color */
+  color: white;
+  transition: all 0.5s ease-in;
+}
+
+.header_container {
+  width: 100%;              /* take full width */
+  /* max-width: 1200px;        optional: keep content centered on big screens */
+  display: flex;
+  justify-content: space-between; /* spread left + right */
+  /* align-items: center; */
+  padding: 0 20px;          /* spacing from edges */
+  margin-top: 31px;
+}
+
+.header_left ul {
+  display: flex;
+  gap: 71px;
+  list-style: none;
+
+  margin-top: 31px;
+
+  margin: 0;
+
+  padding-right: 371px;
+
+}
+
+.header_right ul {
+  display: flex;
+  gap: 31px;
+  list-style: none;
+  
+  text-align: left;
+  padding-left: 21px;
+
+  z-index: 1;
+}

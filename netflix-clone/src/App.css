@@ -1,9 +1,29 @@
-.App {
-text-align: center;
-}
+
 *{
 margin: 0;
 padding:0;
+ /* box-sizing: border-box; */
 }
+
+/* .App {
+  text-align: center;
+  background-color: black;
+  color: white; 
+  width: 100%;
+} */
+
+/* .header_outercontainer{
+position: sticky;
+top:0;
+display: flex;
+align-items: center;
+background-color: black;
+background-color: transparent;
+height: 10vh;
+color: white;
+transition: all 0.5s;
+transition-timing-function: ease-in; 
+
+} */
 
 
